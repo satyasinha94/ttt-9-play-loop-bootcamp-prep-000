@@ -40,4 +40,5 @@ def play(board)
   until turncount = board.length
     play(board)
     turncount += 1
+  end
 end
