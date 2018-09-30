@@ -10,3 +10,4 @@ turncount = 0
 until turncount < board.length;
   play(board)
   turncount++
+end
