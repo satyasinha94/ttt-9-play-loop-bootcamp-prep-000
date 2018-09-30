@@ -6,6 +6,8 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-for turncount = 0; turncount < board.length; do
+turncount = 0
+until turncount < board.length; do
+  play(board)
   turncount++
   end
