@@ -36,7 +36,8 @@ def turn(board)
 end
 
 def play(board)
-  9.times do
-    turn(board)
-  end
+  turncount = 0
+  until turncount = board.length
+    play(board)
+    turncount += 1
 end
