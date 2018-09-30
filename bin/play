@@ -8,4 +8,3 @@ puts "Welcome to Tic Tac Toe!"
 display_board(board)
 for (turncount = 0, turncount < board.length, turncount ++)
   play(board)
-end
