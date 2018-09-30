@@ -39,5 +39,5 @@ def play(board)
   turncount = 0
   until turncount = board.length
   turn(board)
-end
+  end
 end
