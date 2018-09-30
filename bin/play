@@ -9,5 +9,5 @@ display_board(board)
 turncount = 0
 until turncount < board.length;
   play(board)
-  turncount++
+  turncount += 1
 end
